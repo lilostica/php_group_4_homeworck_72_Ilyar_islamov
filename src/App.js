@@ -44,7 +44,7 @@ class App extends Component {
         return (
             <div className="App">
                 <div>
-                    <button onClick={this.handleChangeNumber}>range</button>
+                    <button className="clickButton" onClick={this.handleChangeNumber}>New Numbers</button>
                     <Circle number={this.state.numbers[0].number}/>
                     <Circle number={this.state.numbers[1].number}/>
                     <Circle number={this.state.numbers[2].number}/>
